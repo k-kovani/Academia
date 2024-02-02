@@ -1,2 +1,2 @@
-# Academia
-Codes from Diploma Thesis and Internship
+# Student Projects
+Diploma Thesis and Internship Project
