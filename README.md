@@ -1,2 +1,2 @@
-# Thesis
-Here are the codes from my Diploma Thesis
+# Academia
+Codes from Diploma Thesis and Internship
