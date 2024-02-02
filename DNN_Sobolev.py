@@ -89,6 +89,7 @@ def train(data):
    nCycles = 5  # Number of cycles
    nFolds = 5   # Number of folds for cross-validation
    nBatch = nSamples
+   nEpoch = 1000
    
    # Create KFold instance
    kf = KFold(n_splits=nFolds, shuffle=True, random_state=42)
