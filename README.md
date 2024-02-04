@@ -10,7 +10,9 @@ Diploma Thesis
 Internship Project
 
 
-![GNN](https://github.com/k-kovani/Student_Projects/assets/156211331/2d2b021b-571b-4a5e-b147-ef32d4984a9e)
+
+![GNN](https://github.com/k-kovani/Student_Projects/assets/156211331/402d43e4-16cf-471e-8373-9a3129e04199)
+
 
 
 
