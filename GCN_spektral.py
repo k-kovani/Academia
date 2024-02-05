@@ -6,8 +6,6 @@ import os
 import time
 import numpy as np
 import scipy.sparse as sp
-import matplotlib.pyplot as plt
-import networkx
 import trimesh
 
 import tensorflow as tf
@@ -28,11 +26,11 @@ from spektral.transforms.normalize_one import NormalizeOne
 class CustomDataset(Dataset):
 
     def __init__(self, files_path, n_samples, min_nodes=None, max_nodes=None, n_features=3, **kwargs):
-        self.f_path = files_path        # path of the dataset folder (mesh entities in .obj files)
-        self.n_samples = n_samples      # number of samples to collect from the dataset
+        self.f_path = files_path        # path of the dataset folder (mesh entities in .obj files).
+        self.n_samples = n_samples      # number of samples to collect from the dataset.
         self.n_features = n_features    # number of graph node features. Default is 3: (x, y, z) coordinates of mesh vertices.
-        self.min_nodes = min_nodes      # min. number of graph nodes (mesh vertices)
-        self.max_nodes = max_nodes      # max. number of graph nodes (mesh vertices)
+        self.min_nodes = min_nodes      # min. number of graph nodes (mesh vertices).
+        self.max_nodes = max_nodes      # max. number of graph nodes (mesh vertices).
         super().__init__(**kwargs)
 
     def create_adjacency_from_faces(self, num_vertices, faces):
