@@ -12,7 +12,8 @@ Internship Project
 
 
 
-![GNN (1)](https://github.com/k-kovani/Student_Projects/assets/156211331/ad391b37-6ea8-4bc0-be0c-cbe69d41164b)
+![GNN](https://github.com/k-kovani/Student_Projects/assets/156211331/63044fea-267b-4da1-a920-aaceb7a4be92)
+
 
 
 
