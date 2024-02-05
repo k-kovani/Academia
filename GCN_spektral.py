@@ -86,13 +86,13 @@ class CustomDataset(Dataset):
 # ===============================================
 # Create the dataset and set the loaders:
 # ===============================================
-file_path = 'the_path_to_DB_folder'
+file_path = 'path/to/DB/folder'
 n_samples = int(1000)
 min_nodes = 500
 max_nodes = 1000
 
 # Dataset:
-# NormalizeAdj(): normalizes the adjacency matrix.
+# NormalizeAdj(): normalizes the adjacency matrix as A ← D^(−1/2) A D^(−1/2).
 # NormalizeOne(): normalizes the node attributes by dividing each row by its sum, so that it sums to 1.
 dataset = CustomDataset(file_path, n_samples, min_nodes, max_nodes, transforms=[NormalizeAdj(), NormalizeOne()])
 
