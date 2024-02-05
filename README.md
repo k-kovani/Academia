@@ -3,7 +3,8 @@
 Diploma Thesis
 
 
-![Geometries](https://github.com/k-kovani/Student_Projects/assets/156211331/7de876cd-7a52-4b55-b0cf-ff388f70452b)
+
+![Geometries](https://github.com/k-kovani/Student_Projects/assets/156211331/ca7b870a-f922-47b3-930c-006c37069ca6)
 
 
 
