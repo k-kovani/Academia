@@ -159,6 +159,16 @@ print('\nTotal Computation time: {} seconds\n'.format(round(end_time - start_tim
 
 
 # Evaluate the model:
-predictions = model.evaluate(
-              loader_te.load(),
-              steps=loader_te.steps_per_epoch)
+# preds = model.evaluate(
+#         loader_te.load(),
+#         steps=loader_te.steps_per_epoch
+#         )
+
+all_predictions = []
+all_targets = []
+
+for batch in loader_te.load():
+    inputs, targets = batch
+    predictions = model(inputs, training=False)
+    all_predictions.append(predictions)
+    all_labels.append(targets)
